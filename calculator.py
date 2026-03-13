@@ -5,22 +5,21 @@ b=float(input("Введите второе число: "))
 #
 if c == "+":
 	result=(a+b)
-    print("Результат: ",result)
+    print("Результат: ", result)
 
 if c == "-":
 	result=(a-b)
-    print("Результат: ",result)
+    print("Результат: ", result)
 
 if c == "*":
 	result=(a*b)
-    print("Результат: ",result)
-
+    print("Результат: ", result)
 if c == "/":
 	result=(a/b)
-    print("Результат: ",result)
+    print("Результат: ", result)
     if b == "0":
 		print("На 0 делить нельзя")
     
 if c == "**":
 	result=(a**b)
-	print("Результат:",result)
+	print("Результат:", result)
