@@ -42,13 +42,13 @@ python --version
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/calculator.git
+git clone https://github.com/gullsssss/Calculator/calculator.git
 ```
 
 Go to the project folder:
 
 ```bash
-cd calculator
+cd Calculator
 ```
 
 ---
@@ -73,34 +73,7 @@ Result: 50
 
 ---
 
-## 💻 Code
 
-```python
-print("Calculator started")
-
-a = float(input("Enter first number: "))
-operation = input("Enter operation (+, -, *, /, **): ")
-b = float(input("Enter second number: "))
-
-if operation == "+":
-    result = a + b
-elif operation == "-":
-    result = a - b
-elif operation == "*":
-    result = a * b
-elif operation == "/":
-    result = a / b
-elif operation == "**":
-    result = a ** b
-else:
-    print("Unknown operation")
-    result = None
-
-if result is not None:
-    print("Result:", result)
-```
-
----
 
 ## 📂 Project Structure
 
