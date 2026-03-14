@@ -1,27 +1,27 @@
 print("Что-бы начать использовать калькулятор")
-a=float(input("Введите первое число: "))
-c = input("Введите тип операции(+,-,/,*,**) ")
-b=float(input("Введите второе число: "))
+First=float(input("Введите первое число: "))
+Operation = input("Введите тип операции(+,-,/,*,**) ")
+Second=float(input("Введите второе число: "))
 #
 if c == "+":
-    result= a+b
+    result= First+Second
     print("Результат: ", result) 
 
 if c == "-":
-    result= a-b
+    result= First-Second
     print("Результат: ", result) 
 
 if c == "*":
-    result= a*b
+    result= First*Second
     print("Результат: ", result) 
 
 if c == "/":
     if b == 0:
         print("На 0 делить нельзя")
     else:
-        result = a/b
+        result = Fisrt/Second
         print("Результат", result) 
     
 if c == "**":
-    result= a**b
+    result= First**Second
     print("Результат:", result)
