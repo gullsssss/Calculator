@@ -42,7 +42,7 @@ python --version
 Clone the repository:
 
 ```bash
-git clone https://github.com/gullsssss/Calculator/calculator.git
+git clone https://github.com/gullsssss/Calculator.git
 ```
 
 Go to the project folder:
