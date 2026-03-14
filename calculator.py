@@ -3,25 +3,25 @@ First=float(input("Введите первое число: "))
 Operation = input("Введите тип операции(+,-,/,*,**) ")
 Second=float(input("Введите второе число: "))
 #
-if c == "+":
+if Operation == "+":
     result= First+Second
     print("Результат: ", result) 
 
-if c == "-":
+if Operation == "-":
     result= First-Second
     print("Результат: ", result) 
 
-if c == "*":
+if Operation == "*":
     result= First*Second
     print("Результат: ", result) 
 
-if c == "/":
+if Operation == "/":
     if b == 0:
         print("На 0 делить нельзя")
     else:
         result = Fisrt/Second
         print("Результат", result) 
     
-if c == "**":
+if Operation == "**":
     result= First**Second
     print("Результат:", result)
