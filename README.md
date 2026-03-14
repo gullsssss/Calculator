@@ -1,4 +1,4 @@
-# First project to portfolio in python
+# 🧮 Python Calculator
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Status](https://img.shields.io/badge/Status-Working-brightgreen)
