@@ -1,57 +1,121 @@
-# First project for portfolio in python
+# First project to portfolio in python
 
-"Python" (https://img.shields.io/badge/Python-3.x-blue)
-"Status" (https://img.shields.io/badge/status-active-success)
-"License" (https://img.shields.io/badge/license-MIT-green)
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Status](https://img.shields.io/badge/Status-Working-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-A simple command-line calculator written in Python.
-This program allows the user to perform basic mathematical operations by entering numbers and selecting an operation.
-
----
-
-📌 Features
-
-✔ Addition
-✔ Subtraction
-✔ Multiplication
-✔ Division
-✔ Power (exponentiation)
-✔ Simple and beginner-friendly code
-✔ Works in any terminal
+A simple **calculator written in Python** that works in the terminal.  
+It allows you to perform basic mathematical operations.
 
 ---
 
-📷 Example
+## 📸 Preview
 
+![Calculator Preview](https://dummyimage.com/800x200/000/fff&text=Python+Calculator)
+
+---
+
+## 📌 Features
+
+- ➕ Addition
+- ➖ Subtraction
+- ✖ Multiplication
+- ➗ Division
+- 🔢 Power (**)
+
+---
+
+## ⚙ Requirements
+
+- Python 3.x
+
+Check your Python version:
+
+```bash
+python --version
+```
+
+---
+
+## 🚀 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/calculator.git
+```
+
+Go to the project folder:
+
+```bash
+cd calculator
+```
+
+---
+
+## ▶ Run the program
+
+```bash
+python calculator.py
+```
+
+---
+
+## 📷 Example
+
+```
 Enter first number: 10
 Enter operation (+, -, *, /, **): *
 Enter second number: 5
 
 Result: 50
+```
 
 ---
 
-⚙️ Requirements
+## 💻 Code
 
-- Python 3.x
-- Any operating system (Windows, Linux, macOS)
+```python
+print("Calculator started")
 
-Check Python version:
+a = float(input("Enter first number: "))
+operation = input("Enter operation (+, -, *, /, **): ")
+b = float(input("Enter second number: "))
 
-python --version
+if operation == "+":
+    result = a + b
+elif operation == "-":
+    result = a - b
+elif operation == "*":
+    result = a * b
+elif operation == "/":
+    result = a / b
+elif operation == "**":
+    result = a ** b
+else:
+    print("Unknown operation")
+    result = None
+
+if result is not None:
+    print("Result:", result)
+```
 
 ---
 
-🚀 Installation
+## 📂 Project Structure
 
-Clone this repository:
+```
+calculator/
+│
+├── calculator.py
+└── README.md
+```
 
-git clone https://github.com/your-username/calculator.git
+---
 
-Go to the project folder:
+## 📜 License
 
-cd calculator
-
+MIT License
 ---
 
 ▶️ Usage
