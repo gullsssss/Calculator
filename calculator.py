@@ -4,15 +4,15 @@ c = input("Введите тип операции(+,-,/,*,**) ")
 b=float(input("Введите второе число: "))
 #
 if c == "+":
-	result=(a+b)
+	result= a+b
     print("Результат: ", result)
 
 if c == "-":
-	result=(a-b)
+	result= a-b
     print("Результат: ", result)
 
 if c == "*":
-	result=(a*b)
+	result= a*b
     print("Результат: ", result)
 if c == "/":
     if b == "0":
@@ -22,5 +22,5 @@ if c == "/":
 		print("Результат", result)
     
 if c == "**":
-	result=(a**b)
+	result= a**b
 	print("Результат:", result)
