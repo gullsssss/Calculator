@@ -74,11 +74,10 @@ Result: 50
 ---
 
 
-
 ## 📂 Project Structure
 
 ```
-calculator/
+Calculator/
 │
 ├── calculator.py
 └── README.md
@@ -88,73 +87,7 @@ calculator/
 
 ## 📜 License
 
-MIT License
----
-
-▶️ Usage
-
-Run the program:
-
-python calculator.py
-
-Follow the instructions in the terminal:
-
-1. Enter the first number
-2. Enter the operation
-3. Enter the second number
-4. See the result
-
----
-
-💻 Example Code
-
-print("Calculator started")
-
-a = float(input("Enter first number: "))
-operation = input("Enter operation (+, -, *, /, **): ")
-b = float(input("Enter second number: "))
-
-if operation == "+":
-    result = a + b
-
-elif operation == "-":
-    result = a - b
-
-elif operation == "*":
-    result = a * b
-
-elif operation == "/":
-    result = a / b
-
-elif operation == "**":
-    result = a ** b
-
-else:
-    print("Unknown operation")
-    result = None
-
-if result is not None:
-    print("Result:", result)
-
----
-
-📂 Project Structure
-
-calculator/
-│
-├── calculator.py
-└── README.md
-
----
-
-🧠 How It Works
-
-The program:
-
-1. Asks the user to input numbers.
-2. Asks for the mathematical operation.
-3. Uses "if / elif" conditions to determine which operation to perform.
-4. Prints the result.
+MIT License4. Prints the result.
 
 ---
 
