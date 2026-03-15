@@ -63,7 +63,7 @@ python calculator.py
 
 ## 📷 Example
 
-```
+```python
 Enter first number: 10
 Enter operation (+, -, *, /, **): *
 Enter second number: 5
