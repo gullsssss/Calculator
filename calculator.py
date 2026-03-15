@@ -25,9 +25,5 @@ if Operation == "/":
 if Operation == "**":
     result= First**Second
     print("Результат:", result)
-
-if Second == "π":
-    result = First+3,14
-    print(result)
 else:
     print("Неизвестная операция")
