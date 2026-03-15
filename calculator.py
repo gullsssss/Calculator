@@ -25,3 +25,5 @@ if Operation == "/":
 if Operation == "**":
     result= First**Second
     print("Результат:", result)
+else:
+    print("Неизвестная операция")
