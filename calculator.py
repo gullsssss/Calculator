@@ -1,4 +1,4 @@
-print("Для початку виберить мову(eng,ru,ua)")
+print("Select language(eng,ru,ua)")
 language = input()
 if language == "ru":
     print("Автор: gullsssss(r0tyanka)")
