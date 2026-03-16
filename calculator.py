@@ -1,4 +1,4 @@
-print("Автор: gullsssss")
+print("Автор: gullsssss(r0tyanka)")
 print("Что-бы начать использовать калькулятор")
 First=float(input("Введите первое число: "))
 Operation = input("Введите тип операции(+,-,/,*,**) ")
