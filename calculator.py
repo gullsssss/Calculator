@@ -29,6 +29,7 @@ if language == "ru":
         print("Неизвестная ошибка")
         
 if language == "eng":
+    print("Author: gullsssss(r0tyanka)")
     print("To start using a calculator")
     First = float(input("Input first number: "))
     Operation = input("Select a type operation(+,-,/,*,**): ")
