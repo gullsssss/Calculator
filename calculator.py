@@ -37,19 +37,19 @@ if language == "eng":
     if Operation == "+":
         result = First + Second
         print("Result: ", result) 
-    elif Operation == "-":
+    if Operation == "-":
         result = First - Second
         print("Result: ", result) 
-    elif Operation == "*":
+    if Operation == "*":
         result = First * Second
         print("Result: ", result) 
-    elif Operation == "/":
+    if Operation == "/":
         if Second == 0:
             print("cannot be divided by 0: ")
         else:
             result = First / Second
             print("Result: ", result) 
-    elif Operation == "**":
+    if Operation == "**":
         result = First ** Second
         print("Result: ", result)
     else:
@@ -65,19 +65,19 @@ if language == "ua":
     if Operation == "+":
         result = First + Second
         print("Результат: ", result) 
-    elif Operation == "-":
+    if Operation == "-":
         result = First - Second
         print("Результат: ", result) 
-    elif Operation == "*":
+    if Operation == "*":
         result = First * Second
         print("Результат: ", result) 
-    elif Operation == "/":
+    if Operation == "/":
         if Second == 0:
             print("На 0 ділити не можно")
         else:
             result = First / Second
             print("Результат: ", result) 
-    elif Operation == "**":
+    if Operation == "**":
         result = First ** Second
         print("Результат: ", result)
     else:
