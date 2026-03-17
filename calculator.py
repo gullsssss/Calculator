@@ -1,32 +1,32 @@
-print("Select language(eng,ru,ua)")
+print("Select language(eng,fra,ua)")
 language = input()
-if language == "ru":
-    print("Автор: gullsssss(r0tyanka)")
-    print("Что-бы начать использовать калькулятор")
-    First = float(input("Введите первое число: "))
-    Operation = input("Введите тип операции(+,-,/,*,**) ")
-    Second = float(input("Введите второе число: "))
+if language == "fra":
+    print("Auteur: gullsssss(r0tyanka)")
+    print("Pour commencer à utiliser la calculatrice")
+    First = float(input("Saisissez le premier nombre: "))
+    Operation = input("Entrez le type de transaction(+,-,/,*,**) ")
+    Second = float(input("Entrez le deuxième numéro: "))
 
     if Operation == "+":
         result = First + Second
-        print("Результат: ", result) 
+        print("Résultat: ", result) 
     if Operation == "-":
         result = First - Second
-        print("Результат: ", result) 
+        print("Résultat: ", result) 
     if Operation == "*":
         result = First * Second
-        print("Результат: ", result) 
+        print("Résultat: ", result) 
     if Operation == "/":
         if Second == 0:
-            print("На 0 делить нельзя")
+            print("On ne peut pas diviser par 0")
         else:
             result = First / Second
-            print("Результат: ", result) 
+            print("Résultat: ", result) 
     if Operation == "**":
         result = First ** Second
-        print("Результат: ", result)
+        print("Résultat: ", result)
     else:
-        print("Неизвестная ошибка")
+        print("Erreur inconnue")
         
 if language == "eng":
     print("Author: gullsssss(r0tyanka)")
