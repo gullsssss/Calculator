@@ -83,3 +83,32 @@ if language == "ua":
         print("Результат: ", result)
     else:
         print("Невідома помилка")
+        
+if language == "ru":
+    print("Автор: gullsssss(r0tyanka)")
+    print("Чтобы использовать калькулятор")
+    First = float(input("Введите первое число: "))
+    Operation = input("Введите тип операции(+,-,/,*,**) ")
+    Second =float(input("Введите второе число: "))
+    
+    if Operation == "+":
+        result = First + Second
+        print("Результат: ", result) 
+    if Operation == "-":
+        result = First - Second
+        print("Результат: ", result) 
+    if Operation == "*":
+        result = First * Second
+        print("Результат: ", result) 
+    if Operation == "/":
+        if Second == 0:
+            print("На 0 делить нельзя")
+        else:
+            result = First / Second
+            print("Результат: ", result) 
+    if Operation == "**":
+        result = First ** Second
+        print("Результат: ", result)
+    else:
+        print("Неизвестная ошибка")
+        
