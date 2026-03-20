@@ -1,5 +1,4 @@
-print("Select language(eng,fra,ua)")
-language = input()
+language = input("Select language(eng,fra,ua): ")
 if language == "fra":
     print("Auteur: gullsssss(r0tyanka)")
     print("Pour commencer à utiliser la calculatrice")
