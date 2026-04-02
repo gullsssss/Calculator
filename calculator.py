@@ -9,13 +9,13 @@ if language == "fra":
     if Operation == "+":
         result = First + Second
         print("Résultat: ", result) 
-    if Operation == "-":
+    elif Operation == "-":
         result = First - Second
         print("Résultat: ", result) 
-    if Operation == "*":
+    elif Operation == "*":
         result = First * Second
         print("Résultat: ", result) 
-    if Operation == "/":
+    elif Operation == "/":
         if Second == 0:
             print("On ne peut pas diviser par 0")
         else:
@@ -37,13 +37,13 @@ if language == "eng":
     if Operation == "+":
         result = First + Second
         print("Result: ", result) 
-    if Operation == "-":
+    elif Operation == "-":
         result = First - Second
         print("Result: ", result) 
-    if Operation == "*":
+    elif Operation == "*":
         result = First * Second
         print("Result: ", result) 
-    if Operation == "/":
+    elif Operation == "/":
         if Second == 0:
             print("cannot be divided by 0: ")
         else:
@@ -65,13 +65,13 @@ if language == "ua":
     if Operation == "+":
         result = First + Second
         print("Результат: ", result) 
-    if Operation == "-":
+    elif Operation == "-":
         result = First - Second
         print("Результат: ", result) 
-    if Operation == "*":
+    elif Operation == "*":
         result = First * Second
         print("Результат: ", result) 
-    if Operation == "/":
+    elif Operation == "/":
         if Second == 0:
             print("На 0 ділити не можно")
         else:
@@ -93,13 +93,13 @@ if language == "ru":
     if Operation == "+":
         result = First + Second
         print("Результат: ", result) 
-    if Operation == "-":
+    elif Operation == "-":
         result = First - Second
         print("Результат: ", result) 
-    if Operation == "*":
+    elif Operation == "*":
         result = First * Second
         print("Результат: ", result) 
-    if Operation == "/":
+    elif Operation == "/":
         if Second == 0:
             print("На 0 делить нельзя")
         else:
